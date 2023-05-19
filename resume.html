@@ -14,12 +14,13 @@
     <link href="css/resume.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?Roboto+Slab" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Charter">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
   </head>
   <body class="bg-light">
     <!-- 1. DARK MODE BUTTON -->
     <!-- /1 -->
-
     <!-- 2. NAV -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
       <div class="container-fluid">
@@ -44,161 +45,159 @@
       </div>
     </nav>
     <!-- /2 -->
-
     <!-- 3. Main -->
-    <div class="container main_container" style="margin-top: 5rem !important;">
-      <!-- 4. Page Heading -->
-      <div class="row">
-        <div class="col page_title">
-          <H1>Resume</H1>
+    <div class="container" style="margin-top: 5rem !important;">
+      <div class="content">
+        <!-- 4. Page Heading -->
+        <div class="row">
+          <div class="col page_title">
+            <H1>Resume</H1>
+          </div>
+        </div>
+        <!-- 5. Page Sub Part 1-->
+        <div class="row pagesubpart" id="work_exp" style="display: none;">
+          <!-- subpart title -->
+          <div class="col-md-6">
+            <h2>Work <br> Experience </h2>
+            <div class="line_bar"></div>
+          </div>
+          <!-- subpart content  -->
+          <div class="col-md-6">
+            <div class="card mb-3 bg-light border-0 mycard0">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <p class="card-text mycard0_time_period">
+                    <small class="text-muted">2016 - 2020</small>
+                  </p>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body mycard0_body ">
+                    <h5 class="card-title">IIT Kanput</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">MSR - CSE</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">
+                      <small class="text-muted">Grades - 7.66 / 10 </small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 bg-light border-0 mycard0">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <p class="card-text mycard0_time_period">
+                    <small class="text-muted">2016 - 2020</small>
+                  </p>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body mycard0_body ">
+                    <h5 class="card-title">IIT Kanput</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">MSR - CSE</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">
+                      <small class="text-muted">Grades - 7.66 / 10 </small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 bg-light border-0 mycard0">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <p class="card-text mycard0_time_period">
+                    <small class="text-muted">2016 - 2020</small>
+                  </p>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body mycard0_body ">
+                    <h5 class="card-title">IIT Kanput</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">MSR - CSE</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">
+                      <small class="text-muted">Grades - 7.66 / 10 </small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr style="display: none;">
+        <!-- 6. Page Sub Part 2-->
+        <div class="row pagesubpart" id="education">
+          <!-- subpart title -->
+          <div class="col-md-6">
+            <h2>Education</h2>
+            <div class="line_bar"></div>
+          </div>
+          <!-- subpart content  -->
+          <div class="col-md-6">
+            <div class="card mb-3 bg-light border-0 mycard0">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <p class="card-text mycard0_time_period">
+                    <small class="text-muted">2021 - Persent</small>
+                  </p>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body mycard0_body ">
+                    <h5 class="card-title">Indian Institute of Technology, Kanpur</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Master of Science - MS, Computer Science</h6>
+                    <p class="card-text"></p>
+                    <p class="card-text">
+                      <small class="text-muted">Grades - 7.66 / 10 </small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- RCPIT CARD -->
+            <div class="card mb-3 bg-light border-0 mycard0">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <p class="card-text mycard0_time_period">
+                    <small class="text-muted">2016 - 2020</small>
+                  </p>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body mycard0_body ">
+                    <h5 class="card-title">R. C. Patel Institute of Technology, Shirpur</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Bachelor's degree, Computer Science</h6>
+                    <p class="card-text"></p>
+                    <p class="card-text">
+                      <small class="text-muted">Grades - 7.78 / 10 </small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
-
-      <!-- 5. Page Sub Part 1-->
-      <div class="row pagesubpart">
-        <!-- subpart title -->
-        <div class="col-md-6">
-          <h2>Work <br> Experience </h2>
-        </div>
-        <!-- subpart content  -->
-        <div class="col-md-6">
-          <div class="card mb-3 bg-light border-0 mycard0" >
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <p class="card-text mycard0_time_period">
-                  <small class="text-muted">2016 - 2020</small>
-                </p>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body mycard0_body ">
-                  <h5 class="card-title">IIT Kanput</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">MSR - CSE</h6>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">
-                    <small class="text-muted">Grades - 7.66 / 10 </small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3 bg-light border-0 mycard0" >
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <p class="card-text mycard0_time_period">
-                  <small class="text-muted">2016 - 2020</small>
-                </p>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body mycard0_body ">
-                  <h5 class="card-title">IIT Kanput</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">MSR - CSE</h6>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">
-                    <small class="text-muted">Grades - 7.66 / 10 </small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3 bg-light border-0 mycard0" >
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <p class="card-text mycard0_time_period">
-                  <small class="text-muted">2016 - 2020</small>
-                </p>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body mycard0_body ">
-                  <h5 class="card-title">IIT Kanput</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">MSR - CSE</h6>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">
-                    <small class="text-muted">Grades - 7.66 / 10 </small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>  
-        </div>
-      </div>
-
-      <hr>
-
-      <!-- 6. Page Sub Part 2-->
-      <div class="row pagesubpart">
-        <!-- subpart title -->
-        <div class="col-md-6">
-          <h2>Education</h2>
-        </div>
-        <!-- subpart content  -->
-        <div class="col-md-6">
-          <div class="card mb-3 bg-light border-0 mycard0" >
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <p class="card-text mycard0_time_period">
-                  <small class="text-muted">2016 - 2020</small>
-                </p>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body mycard0_body ">
-                  <h5 class="card-title">IIT Kanput</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">MSR - CSE</h6>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">
-                    <small class="text-muted">Grades - 7.66 / 10 </small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3 bg-light border-0 mycard0" >
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <p class="card-text mycard0_time_period">
-                  <small class="text-muted">2016 - 2020</small>
-                </p>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body mycard0_body ">
-                  <h5 class="card-title">IIT Kanput</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">MSR - CSE</h6>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">
-                    <small class="text-muted">Grades - 7.66 / 10 </small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3 bg-light border-0 mycard0" >
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <p class="card-text mycard0_time_period">
-                  <small class="text-muted">2016 - 2020</small>
-                </p>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body mycard0_body ">
-                  <h5 class="card-title">IIT Kanput</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">MSR - CSE</h6>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">
-                    <small class="text-muted">Grades - 7.66 / 10 </small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>  
-        </div>
-      </div>
-
-
-
-
       <!-- /3 -->
     </div>
-
-
+    <footer class="bg-light py-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 text-center text-md-start">
+            <span>Email me:</span>
+            <a href="mailto:nishantvalvi1998@gamil.com">nishantvalvi1998@gamil.com</a>
+          </div>
+          <div class="col-md-4 text-center"> Made with <i class="fa-solid fa-heart" style="color: orangered;"></i> by Nishant </div>
+          <div class="col-md-4 text-center text-md-end social-container" id="footer_social_container" style="">
+            <span>Follow me:</span>
+            <a href="#">
+              <i class="fa-brands fa-linkedin-in fa-lg mx-2"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-github fa-lg mx-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- SCRIPTS -->
     <script src="../assets/js/color-modes.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
