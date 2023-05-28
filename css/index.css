@@ -87,3 +87,41 @@ body {
   box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
 }
 
+
+#about_info p {
+  font-size: 1rem;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+
+#about_info p a {
+  position: relative;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#about_info p a:hover {
+  color: #79dd09;
+}
+
+#about_info p a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.05rem;
+  width: 0;
+  height: 1px;
+  background-color: #79dd09;
+  transition: width 0.3s ease;
+}
+
+#about_info p a:hover::after {
+  width: 100%;
+}
+
+
+
+
+

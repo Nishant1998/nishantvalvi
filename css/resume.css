@@ -54,3 +54,46 @@
   width: 8rem;
 }
 
+
+/* Skills */
+
+.mycard1 .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .mycard1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mycard1 .card-body {
+    padding: 15px;
+  }
+
+  .mycard1 .card-title {
+    margin-bottom: 10px;
+  }
+
+  .mycard1 .progress-bar {
+    height: 8px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .mycard1 .progress {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 4px;
+    width: 50%; /* Set the initial width or adjust it as needed */
+    transition: width 0.3s ease-in-out;
+  }
+
+
+.mycard2 .progress-bar {
+  background-color: #79dd09;
+}
+
